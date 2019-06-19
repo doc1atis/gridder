@@ -1,0 +1,83 @@
+
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+
+    display: grid;
+    grid-template-rows: repeat(auto-fill, 110px);
+
+    background-color: blue;
+
+    width: 600px;
+    height: 750px;
+    margin: 10px auto;
+
+    row-gap: 20px;
+}
+
+.header{
+
+    background-color: aquamarine;
+
+}
+
+
+.profile{
+
+    background-color: darkorange;
+
+}
+
+.stats{
+    background-color: cornflowerblue
+
+}
+
+.buttons{
+
+    background-color: crimson;
+
+}
+
+.tweet{
+
+    background-color: darkmagenta;
+
+}
+
+.footer{
+    background-color: #111111;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,140px);
+    grid-template-rows: 100px;
+    column-gap: 5px;
+    justify-content: space-between;
+}
+
+.item{
+    background-color: cornflowerblue;
+
+}
+
+.piky{
+    height: 100px;
+    width: 140px;
+}
+
+.tweetpic{
+    width: 600px;
+    height: 130px;
+}
+
+.buttonpic{
+    width: 600px;
+    /* height: 100px; */
+}
